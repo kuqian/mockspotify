@@ -1,0 +1,86 @@
+
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#background {
+	background-color: #000;
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+
+}
+#loginContainer * {
+	color: #fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	line-height: 1em;
+	box-sizing: border-box;
+}
+#loginContainer{
+	width:80%;
+	margin:auto;
+	position:relative;
+	max-width: 1024px;
+}
+#inputContainer{
+	width:400px;
+	padding:45px;
+	float:left;
+	border-right:2px solid #a23030;
+}
+#inputContainer h2{
+	text-align:center;
+}
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+	display:block;
+	background-color: transparent;
+	border: 0;
+	border-bottom:2px solid #a23030;
+	height: 27px;
+	line-height: 27px;
+	width:100%;
+}
+#inputContainer label{
+	color: #fff;
+	font-size:23px;
+	margin-top:15px;
+}
+#inputContainer button{
+	background-color: transparent;
+	border: 2px solid #a23030;
+	border-radius: 250px;
+	color: #fff;
+	display: block;
+	font-size:19px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	height: 41px;
+	width:100%;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #a23030;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #a23030;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #a23030;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #a23030;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #a23030;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #a23030;
+}
